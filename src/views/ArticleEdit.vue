@@ -10,7 +10,7 @@
       <mavon-editor
         ref="md"
         v-model="content"
-        codeStyle="rainbow"
+        codeStyle="qtcreator_dark"
         :toolbars="markdownOption"
         @imgAdd="$imgAdd"
       />
